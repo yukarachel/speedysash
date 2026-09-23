@@ -11,8 +11,8 @@
 }
 
 .main_logo img {
-  width: auto;
-  height: 90px;
+  width: 300px;
+  height: auto;
 }
 
 * { box-sizing: border-box; }
