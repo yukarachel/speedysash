@@ -10,6 +10,11 @@
   --shadow: 0 18px 50px rgba(23, 60, 120, 0.10);
 }
 
+.main_logo img {
+  width: 300px;
+  height: auto;
+}
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
