@@ -23,6 +23,34 @@
   object-fit: contain;
 }
 
+.feature-image {
+  width: 100%;
+  max-width: 1000px;
+  margin: 35px auto 0;
+}
+
+.feature-image-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background: transparent;
+  cursor: pointer;
+}
+
+.feature-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.feature-image-button:hover img {
+  transform: scale(1.02);
+}
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
@@ -381,6 +409,14 @@ footer {
   .main_logo {
     width: min(190px, 70vw);
     padding: 10px 10px;
+  }
+
+  .feature-image {
+    margin-top: 25px;
+  }
+
+  .feature-image-button {
+    border-radius: 14px;
   }
 
   .about {
