@@ -380,6 +380,7 @@ footer {
 
   .main_logo {
     width: min(190px, 70vw);
+    padding: 10px 10px;
   }
 
   .about {
