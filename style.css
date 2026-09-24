@@ -339,6 +339,11 @@ footer {
     padding: 55px 0;
   }
 
+  .form-card {
+    min-height: 0;
+    margin-top: 28px;
+  }
+
   .hero-content {
     display: flex;
     flex-direction: column;
