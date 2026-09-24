@@ -232,7 +232,7 @@ h2 {
 
 .section-heading > p:last-child {
   color: var(--muted);
-  margin-top: 20px;
+  margin: 20px 0px;
 }
 
 .form-card {
