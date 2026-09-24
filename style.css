@@ -331,29 +331,50 @@ footer {
 }
 
 @media (max-width: 800px) {
-  .nav-links { display: none; }
+  .nav-links {
+    display: none;
+  }
+
+  /* Reduce vertical spacing between sections on phones */
+  .section {
+    padding: 55px 0;
+  }
 
   .hero-content {
     display: flex;
     flex-direction: column;
+    gap: 35px;
+    padding: 35px 0 55px;
+    min-height: auto;
   }
 
   .hero-image {
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 0;
   }
 
   .main_logo {
-    width: min(190px, 80vw);
+    width: min(190px, 70vw);
   }
-  
+
   .about {
     grid-template-columns: 1fr;
     gap: 28px;
   }
 
+  .about-card {
+    padding: 28px 24px;
+  }
+
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 28px;
+  }
+
+  .social {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   footer {
