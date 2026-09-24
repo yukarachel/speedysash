@@ -345,18 +345,36 @@ footer {
     margin-top: 28px;
   }
 
+  .hero {
+    min-height: auto;
+  }
+
   .hero-content {
     display: flex;
     flex-direction: column;
-    gap: 35px;
-    padding: 35px 0 55px;
+    gap: 20px;
+    padding: 25px 0 35px;
     min-height: auto;
+  }
+
+  .hero-copy {
+    text-align: center;
+  }
+
+  .hero-subtitle {
+    margin: 18px auto 24px;
+    font-size: 1rem;
   }
 
   .hero-image {
     width: 100%;
     margin-top: 0;
   }
+
+  .main_logo {
+    width: min(170px, 65vw);
+  }
+  
 
   .main_logo {
     width: min(190px, 70vw);
