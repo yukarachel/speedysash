@@ -353,7 +353,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 25px 0 35px;
+    padding: 25px 0 10px;
     min-height: auto;
   }
 
