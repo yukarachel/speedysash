@@ -326,6 +326,21 @@ footer {
   font-size: .85rem;
 }
 
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--blue);
+}
+
 .lightbox {
   position: fixed;
   inset: 0;
@@ -440,5 +455,9 @@ footer {
   footer {
     flex-direction: column;
     gap: 8px;
+  }
+  
+  .footer-links {
+    gap: 16px;
   }
 }
