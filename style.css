@@ -11,7 +11,7 @@
 }
 
 .main_logo {
-  width: min(420px, 100%);
+  width: min(600px, 100%);
   margin: 0 auto;
 }
 
@@ -344,7 +344,7 @@ footer {
   }
 
   .main_logo {
-    width: min(280px, 80vw);
+    width: min(190px, 80vw);
   }
   
   .about {
