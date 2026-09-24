@@ -3,6 +3,7 @@
   --blue-dark: #173c78;
   --blue-soft: #005aff;
   --offwhite: #ffffff;
+
   --white: #ffffff;
   --ink: #17233a;
   --muted: #647087;
@@ -279,8 +280,8 @@ code {
 
 .social {
   text-align: center;
-  margin-top: 54px;
-  margin-bottom: 54px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   color: var(--muted);
 }
 
